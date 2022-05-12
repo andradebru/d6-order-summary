@@ -1,0 +1,39 @@
+body,
+html {
+  height: 100vh;
+}
+
+body {
+  /* display: flex; */
+  /* background-image: url(../images/pattern-background-mobile.svg); */
+}
+background-color: hsl(224deg 100% 92%);
+
+.background {
+}
+
+.container {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  height: auto;
+  border-radius: 20px;
+  background-color: aqua;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
