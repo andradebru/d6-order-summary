@@ -4,6 +4,7 @@
 
 body,
 html {
+  flex-direction: column;
   height: 100vh;
   background-color: hsl(224deg 100% 92%);
   display: flex;
@@ -12,9 +13,8 @@ html {
 }
 
 .hero {
-  width: 100%;
+  width: 80%;
   border-radius: 20px 20px 0px 0px;
-  margin-bottom: 20px;
 }
 
 .container {
@@ -24,9 +24,10 @@ html {
   flex-direction: column;
   width: 80%;
   height: auto;
-  border-radius: 20px;
+  border-radius: 0 0 20px 20px;
   background-color: #fff;
   box-shadow: 0 20px 1em rgba(0, 0, 0, 0.048);
+  padding: 10px;
 }
 
 h1 {
@@ -37,7 +38,7 @@ h2 {
   font-size: 16px;
 }
 
-p {
+.text {
   font-size: 15px;
   line-height: 1.5rem;
   color: #878787;
@@ -49,6 +50,7 @@ p {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-size: 14px;
   background-color: hsl(230deg 75% 98%);
   width: 90%;
   padding: 20px;
@@ -61,6 +63,8 @@ p {
 }
 
 .current-plan {
+  text-align: left;
+  line-height: 0.4rem;
 }
 
 .attribution {
@@ -75,4 +79,13 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer {
+  font-size: 13px;
+  justify-content: flex-end;
+  margin: 20px;
+  /* deixa o footer fixo embaixo */
+  position: absolute;
+  bottom: 0;
 }
