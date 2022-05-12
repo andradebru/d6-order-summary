@@ -62,12 +62,48 @@ h2 {
   height: 50px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .current-plan {
   text-align: left;
   line-height: 0.4rem;
 }
 
+.cta {
+  display: inline-block;
+  border-radius: 10px;
+  width: 90%;
+  padding: 15px;
+  margin: 20px 0px;
+  background-color: hsl(245deg 75% 52%);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  box-shadow: 0 20px 1em rgba(65, 65, 65, 0.122);
+}
+
+.secondary-button {
+  margin-bottom: 20px;
+  color: #878787;
+  font-weight: 700;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  justify-content: flex-end;
+  margin: 20px;
+  /* deixa o footer fixo embaixo */
+  position: absolute;
+  bottom: 0;
+}
+
 .attribution {
+  color: #4f4e4e;
   font-size: 11px;
   text-align: center;
 }
@@ -75,17 +111,9 @@ h2 {
   color: hsl(228, 45%, 44%);
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer {
-  font-size: 13px;
-  justify-content: flex-end;
-  margin: 20px;
-  /* deixa o footer fixo embaixo */
-  position: absolute;
-  bottom: 0;
+@media (min-width: 1440px) {
+  .hero,
+  .container {
+    width: 80%;
+  }
 }
