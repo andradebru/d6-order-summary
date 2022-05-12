@@ -11,7 +11,9 @@ html {
   justify-content: center;
 }
 
-.background {
+.hero {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
 }
 
 .container {
@@ -23,6 +25,7 @@ html {
   height: auto;
   border-radius: 20px;
   background-color: #fff;
+  box-shadow: 0 20px 1em rgba(0, 0, 0, 0.048);
 }
 
 .attribution {
