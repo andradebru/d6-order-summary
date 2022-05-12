@@ -1,13 +1,15 @@
+* {
+  font-family: "red hat display", sans-serif;
+}
+
 body,
 html {
   height: 100vh;
+  background-color: hsl(224deg 100% 92%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-body {
-  /* display: flex; */
-  /* background-image: url(../images/pattern-background-mobile.svg); */
-}
-background-color: hsl(224deg 100% 92%);
 
 .background {
 }
@@ -15,13 +17,12 @@ background-color: hsl(224deg 100% 92%);
 .container {
   box-sizing: border-box;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   flex-direction: column;
   width: 80%;
   height: auto;
   border-radius: 20px;
-  background-color: aqua;
+  background-color: #fff;
 }
 
 .attribution {
