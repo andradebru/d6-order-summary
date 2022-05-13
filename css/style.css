@@ -27,7 +27,7 @@ html {
   border-radius: 0 0 20px 20px;
   background-color: #fff;
   box-shadow: 0 20px 1em rgba(0, 0, 0, 0.048);
-  padding: 10px;
+  padding: 25px;
 }
 
 h1 {
@@ -36,12 +36,14 @@ h1 {
 
 h2 {
   font-size: 16px;
+  margin: 0;
 }
 
 .text {
   font-size: 15px;
   line-height: 1.5rem;
   color: #878787;
+  margin-bottom: 20px;
 }
 
 .plan {
@@ -52,9 +54,13 @@ h2 {
   align-items: center;
   font-size: 14px;
   background-color: hsl(230deg 75% 98%);
-  width: 90%;
+  width: 100%;
   padding: 20px;
   border-radius: 15px;
+}
+
+p {
+  margin: 0;
 }
 
 .music-icon {
@@ -70,7 +76,6 @@ h2 {
 
 .current-plan {
   text-align: left;
-  line-height: 0.4rem;
 }
 
 .cta {
@@ -114,6 +119,6 @@ footer {
 @media (min-width: 1440px) {
   .hero,
   .container {
-    width: 80%;
+    width: 60%;
   }
 }
