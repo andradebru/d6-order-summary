@@ -121,4 +121,10 @@ footer {
   .container {
     width: 60%;
   }
+
+  .background {
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+  }
 }
